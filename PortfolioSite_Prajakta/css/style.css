@@ -5,6 +5,7 @@ Colors used:
 Primary Color (Green): #05676e;
 Secondary Color (Green): #53C5B4;
 */
+
 body {
   background-color: #ffffff;
   font-family: 'rubik';
@@ -35,7 +36,9 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-
+img{
+    width: 100%;
+}
 
 a {
   color: #53C5B4;
@@ -50,4 +53,8 @@ a:visited { /* visited link */
 }
 a:active { /* selected link */
   color: #994c30;
+}
+header{
+    background-color: #ff44c4;
+    padding: 10px;
 }
