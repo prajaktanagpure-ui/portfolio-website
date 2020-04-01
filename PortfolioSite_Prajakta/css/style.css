@@ -5,7 +5,16 @@ Colors used:
 Primary Color (Green): #05676e;
 Secondary Color (Green): #53C5B4;
 */
-
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+* {
+  box-sizing: border-box;
+}
+.logo {
+  max-width: 250px;
+}
 body {
   background-color: #ffffff;
   font-family: 'rubik';
@@ -22,7 +31,9 @@ h1 {
   font-size: 2.75em;
   font-weight: 700;
 }
-
+#hero h1 {
+  text-align: center; /* Centers text */
+}
 h2 {
   font-size: 2.25em;
   font-weight: 700;
@@ -57,4 +68,12 @@ a:active { /* selected link */
 header{
     background-color: #ff44c4;
     padding: 10px;
+    margin: 10px;
+    position: relative;
+    float: clear;
+    width: 100%;
 }
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
