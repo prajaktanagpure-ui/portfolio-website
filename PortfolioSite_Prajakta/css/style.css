@@ -45,10 +45,6 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-
-main {
-  padding-top: 133px;
-}
 a {
   color: #53C5B4;
   text-decoration: none; /* No underlining */
@@ -64,12 +60,17 @@ a:active { /* selected link */
   color: #994c30;
 }
 
+main {
+  padding-top: 133px;
+}
 header {
   background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
+  box-shadow: 0 2px 5px 0 rgba(51,51,51,.1);
+  position: relative;
 }
 nav > ul {
   list-style-type: none;
