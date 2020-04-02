@@ -9,8 +9,11 @@ Secondary Color (Green): #53C5B4;
 
 .logo {
   position: absolute;
-  max-width: 50px;
+  max-width: 25px;
   margin: auto;
+}
+img{
+    width: 100%;
 }
 body {
   background-color: #ffffff;
@@ -28,9 +31,7 @@ h1 {
   font-size: 2.75em;
   font-weight: 700;
 }
-#hero h1 {
-  text-align: center; /* Centers text */
-}
+
 h2 {
   font-size: 2.25em;
   font-weight: 700;
@@ -44,9 +45,7 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
-img{
-    width: 100%;
-}
+
 main {
   padding-top: 133px;
 }
@@ -89,6 +88,9 @@ nav > ul > li > a {
   text-align:center;
   display: inline-block;
   width: 100%;
+}
+#hero h1 {
+  text-align: center; /* Centers text */
 }
 .container {
   padding: 0 15px;
