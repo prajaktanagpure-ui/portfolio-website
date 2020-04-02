@@ -8,7 +8,9 @@ Secondary Color (Green): #53C5B4;
 /* Layout styling */
 
 .logo {
-  max-width: 250px;
+  position: absolute;
+  max-width: 50px;
+  margin: auto;
 }
 body {
   background-color: #ffffff;
