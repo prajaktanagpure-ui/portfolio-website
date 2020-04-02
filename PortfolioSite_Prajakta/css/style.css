@@ -6,12 +6,7 @@ Primary Color (Green): #05676e;
 Secondary Color (Green): #53C5B4;
 */
 /* Layout styling */
-.container {
-  padding: 0 15px;
-}
-* {
-  box-sizing: border-box;
-}
+
 .logo {
   max-width: 250px;
 }
@@ -50,7 +45,9 @@ h4 {
 img{
     width: 100%;
 }
-
+main {
+  padding-top: 133px;
+}
 a {
   color: #53C5B4;
   text-decoration: none; /* No underlining */
@@ -65,13 +62,38 @@ a:visited { /* visited link */
 a:active { /* selected link */
   color: #994c30;
 }
-header{
-    background-color: #ff44c4;
-    padding: 10px;
-    margin: 10px;
-    position: relative;
-    float: clear;
+
+  header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
     width: 100%;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+#hero {
+  background-color: #ffffff;
+  text-align:center;
+  display: inline-block;
+  width: 100%;
+}
+.container {
+  padding: 0 15px;
+  width:100%;
+}
+* {
+  box-sizing: border-box;
 }
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
