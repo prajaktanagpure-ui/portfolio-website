@@ -12,6 +12,10 @@ Secondary Color (Green): #53C5B4;
   max-width: 25px;
   margin: auto;
 }
+element.style{
+    width:40%;
+    height:auto;
+}
 img{
     width: 100%;
 }
@@ -54,10 +58,10 @@ a:hover {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:visited { /* visited link */
-  color: #53C5B4;
+  color: #cc6540;
 }
 a:active { /* selected link */
-  color: #994c30;
+  color: #53C5B4;
 }
 
 main {
@@ -84,7 +88,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #53C5B4;
 }
 #hero {
   background-color: #ffffff;
