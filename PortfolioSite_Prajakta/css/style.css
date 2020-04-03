@@ -106,3 +106,18 @@ nav > ul > li > a {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
