@@ -6,15 +6,16 @@ Primary Color (Green): #05676e;
 Secondary Color (Green): #53C5B4;
 */
 /* Layout styling */
-
-.logo {
-  position: absolute;
-  max-width: 25px;
-  margin: auto;
+.container {
+  padding: 0 15px;
+  max-width: 1200px;  
 }
-element.style{
-    width:40%;
-    height:auto;
+#logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 60px;
+  margin-top: 0px;
+  padding-left: 10px;
 }
 img{
     width: 100%;
@@ -64,32 +65,30 @@ a:active { /* selected link */
   color: #53C5B4;
 }
 
-main {
-  padding-top: 133px;
-}
 header {
-  background-color: #ffffff;
-  text-align: unset;
+  background-color:#ffffff;
   padding: 10px 0;
-  margin: 10px;
   box-shadow: 0 2px 5px 0 rgba(51,51,51,.1);
   position: fixed;
+  width:100%;
+ 
 }
+
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin:0;
 }
 nav > ul > li {
   display: inline-block;
   width: auto;
-  float:right;
-   
-}
+  }
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #53C5B4;
+  text-align: right;
 }
 #hero {
   background-color: #ffffff;
@@ -103,10 +102,7 @@ nav > ul > li > a {
 #hero h1 {
   text-align: center; /* Centers text */
 }
-.container {
-  padding: 0 15px;
-  width:100%;
-}
+
 * {
   box-sizing: border-box;
 }
@@ -120,19 +116,17 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
     
   main{
-    padding-top: 99px;
+    padding-top: 133px;
     }
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
-
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    
   }
-  
   .col-md-6 {
     width: 50%;
   }
@@ -151,6 +145,7 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
 }
 /* ==============================
 X-large devices (1440px or larger)
