@@ -70,8 +70,7 @@ header {
   padding: 10px 0;
   box-shadow: 0 2px 5px 0 rgba(51,51,51,.1);
   position: fixed;
-  width:100%;
- 
+  width:100%; 
 }
 
 nav > ul {
@@ -125,7 +124,7 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    
+    margin-top: 4px;
   }
   .col-md-6 {
     width: 50%;
