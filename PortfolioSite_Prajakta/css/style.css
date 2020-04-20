@@ -10,17 +10,24 @@ Secondary Color (yellow): #fbcb6d;
   padding: 0 15px;
   max-width: 1200px; 
 } 
-.logo-wrapper{
- 
- float: left;
- display:inline-block;
+navbar{
+  display:flex;
 }
+.logo-wrapper{
+  flex:3;
+}
+nav{
+ flex: 1;  
+ align-self: center;
+ flex-direction: row-reverse;
+}
+
 #logo {
   width: 65px;
   height: 65px;
-  margin-left: 60px;
-  margin-top: 0px;
-  padding-left: 10px;
+ /* margin-left: 60px;*/
+  /*margin-top: 0px; */
+/* padding-left: 10px;*/
 }
 img{
     width: 100%;
@@ -29,8 +36,8 @@ img{
  width:100%;
 }
 .responsive {
- width:100%;
- height:auto;
+  width:100%;
+  height:auto;
 }
 body {
   background-color: #ffffff;
@@ -187,7 +194,7 @@ footer {
   margin: 0 auto;
   display: inline-block;
   margin-top: 50px;
-    }
+ }
 
 /* ==============================
 Medium devices (640px and larger)
@@ -202,19 +209,13 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-    display:inline-block;
-   
-  }
+
   #hero {
     text-align: center;
     display: block;
   }
   .col-md-6 {
-    width: 100%;
+    width: 50%;
    
   }
 
@@ -224,10 +225,10 @@ Medium devices (640px and larger)
     
   }
 
-.row::after {
-   content: "";
-   clear: both;
-   display: table;
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
   #about h3 {
     margin-top: 0;
@@ -236,6 +237,13 @@ Medium devices (640px and larger)
   #about .center {
     margin-left: 0;
   }
+    
+  #about .about-me-photo{
+    width: 700px;
+  }
+  #resume .my-resume{
+    max-width: 700px;   
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -246,13 +254,17 @@ Large devices (1024px or larger)
   margin-left: auto;
   margin-right: auto;
 }
+
+
 .col-lg-7 {
-  width: 50%;
+  width: 60%;
   }
 
 .col-lg-5 {
-  width: 50%;
-  }
+  width: 40%;
+  }  
+
+    
 }
 /* ==============================
 X-large devices (1440px or larger)
