@@ -3,30 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <title>Prajakta's Portfolio</title>
+    
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
      <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c70fa02c5f.js" crossorigin="anonymous"></script>
     <link href="img/favicon.png" rel="shortcut icon">
 </head>
 <body>
     <header>
-       <div class="container">
-           <div class="navbar">
-              <div class="logo-wrapper">
-            <a href="index.html">
-              <img src="img/logo.svg" id="logo" alt="Prajakta Nagpure"></a>
-          </div>
-             
-           <nav>
+        <div class="container">
+         <div class="navtoggle" id="myNavtoggle">
+           <a href="index.html"><img id="logo" src="img/logo.svg" alt="Prajakta Nagpure UX UI logo">
+              </a>
+    
+        <nav>
            <ul>
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
+           <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
-        </div>
-           </div>
+      </div> 
+      </div>
         
     </header>
     <main>
@@ -84,7 +85,7 @@
               <!-- open paragraph -->
               Tools: Tool used: Sketch, Invision
             </p><!-- end paragraph -->
-            <a href="#" class="button">Read more</a><!-- button or link label -->
+            <a href="tiffin.html" class="button">Read more</a><!-- button or link label -->
         </div><!-- end second column -->
         </div><!-- end row that holds (2) columns for project -->
 
@@ -1060,6 +1061,7 @@
         </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="   crossorigin="anonymous"></script>
    <script src="js/scripts.js"></script>
 </body>
 </html>
