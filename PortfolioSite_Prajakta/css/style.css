@@ -62,8 +62,7 @@ img{
 }
 .responsive {
   width:100%;
-  height:auto;
-  padding-top:75px; 
+  height:auto; 
 }
 a {
   color: #53C5B4;
@@ -204,6 +203,7 @@ nav > ul > li > a:active { /* selected link */
 
 .navtoggle.responsive nav {
   padding: 24px 0 0;
+  text-align: center
 }
 
  .navtoggle li .icon {
