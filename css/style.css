@@ -86,7 +86,7 @@ a:active { /* selected link */
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #D1A44E;
+  border-bottom: 2px solid #fbcb6d;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
@@ -99,7 +99,7 @@ a:active { /* selected link */
   background-color: transparent;
   color: #fbcb6d !important;
   text-transform: uppercase;
-  border: 2px solid #D1A44E;
+  border: 2px solid #fbcb6d;
   margin: 15px 0;
 }
 
