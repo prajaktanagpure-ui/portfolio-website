@@ -286,13 +286,14 @@ Medium devices (640px and larger)
     margin-right: auto; 
     }
     
-  /*#resume .my-resume{
+   #resume .my-resume{
     display: block;
     max-width: 700px;
+    max-height: auto;
     margin-left: auto;
     margin-right: auto;  
     
-    }*/
+    }
    #main-body .userflow{
     display: block;
     max-width: 700px;
