@@ -150,6 +150,7 @@ picture{
 }
 #hero span {
   display: block;
+  padding-bottom: 30px;
 }
 #hero h1 {
   text-align: center; /* Centers text */
@@ -307,6 +308,15 @@ Medium devices (640px and larger)
     margin-right: auto;
     
     }
+    iframe{
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+   
 }
 /* ==============================
 Large devices (1024px or larger)
